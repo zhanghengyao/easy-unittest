@@ -1,0 +1,32 @@
+{
+  "name": "easy-unittest",
+  "version": "0.0.1",
+  "description": "easy unittest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanghengyao/easy-unittest.git"
+  },
+  "keywords": [
+    "easy",
+    "unittest"
+  ],
+  "author": "zhyao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhanghengyao/easy-unittest/issues"
+  },
+  "homepage": "https://github.com/zhanghengyao/easy-unittest#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-generator": "^6.26.1",
+    "babel-template": "^6.26.0",
+    "glob": "^7.1.2"
+  },
+  "dependencies": {
+  }
+}
