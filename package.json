@@ -4,7 +4,7 @@
   "description": "easy unittest",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./demo/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,7 +28,8 @@
     "chalk": "^2.4.1",
     "cli-progress": "^2.1.0",
     "glob": "^7.1.2",
-    "module-meta-analysis": "^0.0.1"
+    "module-meta-analysis": "^0.0.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0"
   },
   "dependencies": {}
 }
