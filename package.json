@@ -1,6 +1,6 @@
 {
   "name": "easy-unittest",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "easy unittest",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
     "chalk": "^2.4.1",
     "cli-progress": "^2.1.0",
     "glob": "^7.1.2",
-    "module-meta-analysis": "^0.0.3"
+    "module-meta-analysis": "^0.1.0"
   }
 }
