@@ -16,7 +16,7 @@ easyUnittest({
       const bKey = b.notes || b.code;
       specs[bKey] = ['const a = 123;'];
     });
-    console.log(specs)
+    console.log(key)
     suiteBlocks[key] = {
       blocks: [],
       specs

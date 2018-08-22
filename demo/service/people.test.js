@@ -1,6 +1,6 @@
 describe('/Users/zhangyao/Documents/work/easy-unittest/fixtures/service/people.js', () => {
   describe('getArticleList', () => {
-    it('success', async function () {
+    it('success', function* () {
       const gan = 'gan';
     });
   });
