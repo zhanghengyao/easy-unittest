@@ -9,13 +9,14 @@ easyUnittest({
   const suiteBlocks = {};
   for (const key in moduleMeta) {
     const item = moduleMeta[key];
-    const specs = item.branch.map(b => {
+    const specs = {
+      success: ['const gan = \'gan\'']
+    };
+    item.branch.forEach(b => {
       const bKey = b.notes || b.code;
-      return {
-        [bKey]: ''
-      }
+      specs[bKey] = ['const a = 123;'];
     });
-    console.log(item)
+    console.log(specs)
     suiteBlocks[key] = {
       blocks: [],
       specs
