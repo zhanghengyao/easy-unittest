@@ -1,6 +1,6 @@
 {
   "name": "easy-unittest",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "easy unittest",
   "main": "index.js",
   "scripts": {
