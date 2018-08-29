@@ -16,13 +16,13 @@ easyUnittest({
       const bKey = b.notes || b.code;
       specs[bKey] = ['const a = 123;'];
     });
-    console.log(key)
     suiteBlocks[key] = {
       blocks: [],
       specs
     }
   }
   return {
+    rootBlocks: ['const a = 123'],
     suiteBlocks
   };
 })
