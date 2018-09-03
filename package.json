@@ -1,10 +1,10 @@
 {
   "name": "easy-unittest",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "easy unittest",
   "main": "index.js",
   "scripts": {
-    "start": "node ./demo/index.js",
+    "demo": "node ./demo/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,10 +24,6 @@
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-generator": "^6.26.1",
-    "babel-template": "^6.26.0",
-    "chalk": "^2.4.1",
-    "cli-progress": "^2.1.0",
-    "glob": "^7.1.2",
-    "module-meta-analysis": "^0.1.0"
+    "babel-template": "^6.26.0"
   }
 }
