@@ -1,28 +1,18 @@
-const easyUnittest = require('..');
+const easyUnittest = require('../lib/core/generate');
 const path = require('path');
 easyUnittest({
-  entry: path.join(__dirname, '../fixtures/**/*.js'),
-  output: path.join(__dirname, '../demo'),
-  entryKey: 'fixtures',
-  mode: 'all'
-}, moduleMeta => {
-  const suiteBlocks = {};
-  for (const key in moduleMeta) {
-    const item = moduleMeta[key];
-    const specs = {
-      success: ['const gan = \'gan\'']
-    };
-    item.branch.forEach(b => {
-      const bKey = b.notes || b.code;
-      specs[bKey] = ['const a = 123;'];
-    });
-    suiteBlocks[key] = {
-      blocks: [],
-      specs
+  output: path.join(__dirname, '../demo/test/controller/home.test.js'),
+  injections: {
+    rootBlocks: ['const a = 123'],
+    suiteBlocks: {
+      create: {
+        optType: 'patch',
+        methodType: 'generator',
+        blocks: [],
+        specs: {
+          'test branch': ['const gan = \'gan\'']
+        }
+      }
     }
   }
-  return {
-    rootBlocks: ['const a = 123'],
-    suiteBlocks
-  };
-})
+});

@@ -24,10 +24,6 @@
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-generator": "^6.26.1",
-    "babel-template": "^6.26.0",
-    "chalk": "^2.4.1",
-    "cli-progress": "^2.1.0",
-    "glob": "^7.1.2",
-    "module-meta-analysis": "^0.1.0"
+    "babel-template": "^6.26.0"
   }
 }
