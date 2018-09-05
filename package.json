@@ -1,6 +1,6 @@
 {
-  "name": "easy-unittest",
-  "version": "0.1.8",
+  "name": "easy-test",
+  "version": "1.0.0",
   "description": "easy unittest",
   "main": "index.js",
   "scripts": {
@@ -9,18 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhanghengyao/easy-unittest.git"
+    "url": "git+https://github.com/zhanghengyao/easy-test.git"
   },
   "keywords": [
     "easy",
+    "test",
     "unittest"
   ],
-  "author": "zhyao",
+  "author": "hengyao.zhy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhanghengyao/easy-unittest/issues"
+    "url": "https://github.com/zhanghengyao/easy-test/issues"
   },
-  "homepage": "https://github.com/zhanghengyao/easy-unittest#readme",
+  "homepage": "https://github.com/zhanghengyao/easy-test#readme",
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-generator": "^6.26.1",
